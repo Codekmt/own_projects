@@ -1,0 +1,159 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    color: rgb(203, 203, 203);
+    padding: 0;
+    background-color: rgb(69, 29, 29);
+    overflow-x: hidden;
+} 
+header {
+    background-color: rgb(69, 29, 29);
+    text-align: right;
+    padding: 18px;
+    border: 1px solid rgb(69, 29, 29);
+}
+header nav {
+    margin-right: 30px;
+    display: inline-flex;
+}
+header nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+#Resume:hover {
+    text-decoration: none;
+    border-color: rgb(195, 195, 195);
+}
+header nav a:hover {
+    color: rgb(168, 169, 169);
+}
+#Resume {
+    padding-left: 12px;
+    margin-left: 13px;
+    border: 2px inset white;
+    border-radius: 10px;
+}
+
+
+#prof_pic img {
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+}
+.container {
+    border: 1px solid red;
+    position: relative;
+    top: 45px;
+    text-align: center;
+    height: 596px;
+}
+.container h1 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+.reach-out {
+    color: white;
+    text-decoration: none;
+    border: 1px inset rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 10px;
+    padding: 6px;
+    bottom: -20px;
+    position: relative;
+}
+.container .reach-out:hover{
+    color: lightgrey;
+    border-color: lightgrey;
+}
+.title-wbdv p{
+    position: relative;
+    margin-top: 0px;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.container-projects {
+    margin-top: 45px;
+    border: 1px solid red;
+    height: 700px;
+    color: white;
+    font-weight: bold;
+}
+.container-projects h1 {
+    position: relative;
+    text-align: right;
+    top: 340px;
+    right: 100px;
+}
+.container-aboutme {
+    border: 1px solid red;
+    height: 700px;
+    color: white;
+}
+.container-aboutme h1 {
+    text-decoration: underline;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+.knowledge {
+    position: relative;
+    font-size: 26px;
+    left: 260px;
+    top: 50px;
+}
+.languages {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 70px;
+    left: 300px;
+}
+.summary-block {
+    position: relative;
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+    font-family:'Times New Roman';
+    margin-right: 130px;
+    overflow-x: hidden;
+    /* border: 1px solid rgb(0, 157, 255); */
+    width: 500px;
+    height: 300px;
+    border-radius: 100%;
+    padding: 50px;
+}
+.summary-block p {
+    margin-top: 5px;
+}
+.contact-me {
+    position: relative;
+    border: 1px solid rgb(6, 218, 255) ;
+    height: 200px;
+    width: 200px;
+    bottom: -260px;
+}
+
+@media (max-width: 723px){
+    .container .title-wbdv p {
+        font-size: 56px;
+    }
+}
+@media (max-width: 370px) {
+    .container .title-wbdv p {
+        font-size: 36px;
+    }
+    .container h1 {
+        font-size: 26px;
+    }
+}
+@media (max-width: 240px) {
+    .container .title-wbdv p {
+        font-size: 20px;
+    }
+    .container h1 {
+        font-size: 15px;
+    }
+}
