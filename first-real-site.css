@@ -52,6 +52,53 @@ header nav a:hover {
 .container h1 {
     margin-top: 20px;
     font-size: 30px;
+    
+}
+.project1 {
+    position: relative;
+    top: 50px;
+    left: 80px;
+    
+}
+.project1, .project1 img {
+    
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 15vw;
+    min-height: 150px;
+    width: 15vw;
+    min-width: 150px;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.text_project1 {
+    font-size: 12px;
+    width: 40%;
+    position: relative;
+    left: 340px;
+    top: -100px;
+
+}
+.project2 {
+    background-color: aqua;
+    position: relative;
+    top: 6vw;
+    left: 80px;
+    height: 15vw;
+    min-height: 150px;
+    width: 15vw;
+    min-width: 150px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.text_project2 {
+    color: rgb(192, 192, 192);
+    position: relative;
+    left: 340px;
+    font-size: 12px;
+    width: 40%;
+    top: -80px;
 }
 .reach-out {
     color: white;
@@ -119,11 +166,12 @@ header nav a:hover {
     font-family:'Times New Roman';
     margin-right: 130px;
     overflow-x: hidden;
-    /* border: 1px solid rgb(0, 157, 255); */
+    border: 1px solid rgb(0, 157, 255);
     width: 500px;
     height: 300px;
     border-radius: 100%;
     padding: 50px;
+    padding-bottom: 0px;
 }
 .summary-block p {
     margin-top: 5px;
@@ -132,8 +180,11 @@ header nav a:hover {
     position: relative;
     border: 1px solid rgb(6, 218, 255) ;
     height: 200px;
-    width: 200px;
+    width: 350px;
     bottom: -260px;
+}
+#email {
+    margin-top: 10px;
 }
 
 @media (max-width: 723px){
